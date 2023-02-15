@@ -1,0 +1,19 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+/*.positionの方で指定しないとサイズが変更されない*/
+/*.fab {*/
+/*  font-size: 32px;*/
+/*}*/
+
+.position{
+  font-size: 32px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
